@@ -1,7 +1,4 @@
-# Deploy to Kubernetes - Review app with Azure DevSpaces
-- task: KubectlInstaller@0
-  inputs:
-    kubectlVersion: 'latest'
+
 # Build and push image to Azure Container Registry; Deploy to Azure Kuberentes Services and setup Review App with Azure DevSpaces
 # https://docs.microsoft.com/azure/devops/pipelines/languages/docker
 
